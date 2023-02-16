@@ -1,0 +1,49 @@
+.Calculator {
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 25px;
+  border-color: rgb(80, 84, 98);
+  border-style: solid;
+  width: 400px;
+  background-color: rgb(179, 180, 185);
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  background-color: rgb(80, 84, 98);
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 25px;
+  font-weight: normal;
+  height: 40px;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+.Calculator-Input label {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Calculator-Input input,
+textarea {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.Calculator-Input textarea {
+  height: 15px;
+}
+
+.Calculator-Display {
+    font-size: 20px;
+}
